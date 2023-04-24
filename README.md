@@ -14,7 +14,7 @@ To run this application in a Docker container, follow these steps:
 
 1. Clone the repository to your local machine:
 ~~~
-git clone https://github.com/your-username/hello-world-docker.git
+git clone https://github.com/gabrielaellen/project-hello-world-docker.git
 ~~~
 
 2. Change into the `hello-world-docker` directory:
@@ -24,12 +24,12 @@ cd hello-world-docker
 
 3. Build the Docker image using the `Dockerfile`:
 ~~~
-docker build -t hello-world .
+docker build -t hello-world-docker .
 ~~~
 
 4. Run the Docker container from the image:
 ~~~
-docker run -p 3000:3000 hello-world
+docker run -p 3000:3000 hello-world-docker
 ~~~
 
 5. Access the application by opening a web browser and navigating to `http://localhost:3000`.
